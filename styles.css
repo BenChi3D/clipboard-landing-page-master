@@ -1,0 +1,366 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 360px) {
+  body {
+    background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    font-family: "Bai Jamjuree", "sans-serif";
+  }
+
+  .sec-one {
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  h1 {
+    padding-top: 50px;
+    font-size: 30px;
+  }
+
+  .sec-one > p {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  .button-cont {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    box-shadow: 0px 2px 5px;
+  }
+
+  button > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  #ios-button {
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+  }
+
+  #mac-button {
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    margin-top: 25px;
+    border-radius: 50px;
+    padding: 15px;
+  }
+
+  .sec-two {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+  }
+
+  .sec-two > p {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  .img-cont {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-computer {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-computer-text {
+    margin-top: 10px;
+  }
+
+  .img-computer-text > h3 {
+    padding-top: 40px;
+  }
+
+  .img-computer-text > p {
+    padding-top: 10px;
+  }
+
+  .sec-three {
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .img-two-cont {
+    padding-top: 40px;
+  }
+
+  .img-two {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sec-three > h2 {
+    padding-top: 40px;
+  }
+
+  .sec-three > p {
+    padding-top: 15px;
+    font-size: 16px;
+  }
+
+  .sec-four {
+    margin-top: 10px;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .sec-four-cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img[class="icons-four"] {
+    margin-top: 40px;
+  }
+
+  p[class="text-four"] {
+    padding-top: 20px;
+  }
+
+  .sec-five {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  div[class*="logo"] {
+    padding-top: 50px;
+  }
+
+  .sec-six {
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .sec-six > p {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  .footer-cont {
+    margin-top: 100px;
+    background-color: hsl(201, 11%, 66%);
+    padding: 30px;
+    text-align: center;
+  }
+
+  .footer-logo-cont {
+    padding-top: 20px;
+  }
+
+  .sub-cont {
+    padding-top: 20px;
+    line-height: 36px;
+  }
+
+  .socia-media {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .socia-media > a {
+    padding-right: 20px;
+  }
+
+  #footer-logo {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+  }
+
+  .sec-one {
+    margin-top: 10px;
+    padding: 150px 150px 50px 150px;
+  }
+
+  .button-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  #ios-button {
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 50px;
+    padding: 20px 40px 20px 40px;
+    margin: 25px 10px 0px 0px;
+  }
+
+  #mac-button {
+    padding: 20px 40px 20px 40px;
+    margin-left: 10px;
+  }
+
+  .sec-two > p {
+    padding: 20px 150px 20px 150px;
+  }
+
+  .img-cont {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-computer {
+    width: 100%;
+    max-width: 50%;
+    min-width: 50%;
+    margin-left: -80px;
+    padding: 35px;
+  }
+
+  .img-computer-text {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 80px;
+  }
+
+  .sec-three > p {
+    padding: 15px 75px 0px 75px;
+  }
+
+  .img-two {
+    padding: 0px 75px 0px 75px;
+  }
+
+  .sec-three > p {
+    padding: 15px 90px 0px 90px;
+  }
+
+  .sec-four-cont {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .blacklist {
+    margin-top: -10px;
+    padding: 10px;
+  }
+
+  .plain-text {
+    padding: 10px;
+  }
+
+  .sneak-preview {
+    padding: 10px;
+  }
+
+  .sec-six > p {
+    padding: 20px 150px 0px 150px;
+  }
+
+  .footer-cont {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sub-cont {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+
+  #footer-loogo {
+    margin-top: 0px;
+  }
+
+  .sub-one {
+    padding-right: 50px;
+  }
+
+  .sub-two {
+    padding-right: 30px;
+  }
+
+  .sub-three {
+    padding-right: 50px;
+  }
+
+  .socia-media {
+    margin: 50px 0px 0px 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .sec-one > p {
+    padding: 20px 50px 0px 50px;
+  }
+
+  .img-computer {
+    margin-left: -100px;
+  }
+
+  .sec-three > p {
+    padding: 15px 140px 0px 140px;
+  }
+
+  .img-two {
+    margin-top: 30px;
+  }
+
+  .blacklist {
+    padding: 20px;
+  }
+
+  .plain-text {
+    padding: 20px;
+  }
+
+  .sneak-preview {
+    padding: 20px;
+  }
+
+  .sec-five-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div[class*="logo"] {
+    margin: 25px;
+    text-align: center;
+  }
+
+  .sub-cont {
+    padding: 0px 90px 0px 90px;
+  }
+}
